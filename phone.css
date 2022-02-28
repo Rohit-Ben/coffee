@@ -1,0 +1,47 @@
+.nav{
+  flex-direction: column;
+}
+.log{
+  margin: 3px;
+}
+.nav ul{
+  margin: 3px auto;
+}
+.nav ul li a{
+  font-size: 0.72rem;
+}
+.nav ul li a:hover {
+  font-size: 0.74rem;
+}
+.home{
+  padding: 5px 10px;
+  height: 446px;
+}
+.home::before{
+  height: 621px;
+}
+
+.home h1{
+  padding: 2px;
+}
+.home p{
+  font-size: 0.8rem;
+}
+.head{
+  font-size: 2.5rem;
+}
+.btn{
+  font-size: 0.9rem;
+}
+.service{
+  flex-direction: column;
+  margin: 0px 15px;
+}
+
+.client{
+  flex-wrap: wrap;
+  height: auto;
+}
+.input .btn{
+  width:42%;
+}

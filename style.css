@@ -1,0 +1,222 @@
+/* css reset */
+html, body {
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+
+/* navbar */
+.nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.nav::before {
+  content: "";
+  background: black;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.log {
+  margin: 7px 14px;
+}
+
+.log img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav ul li a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: 2px 12px;
+  font-size: 1.2rem;
+  transition: 0.4s;
+  margin: auto;
+}
+
+.nav ul li a:hover {
+  color: black;
+  font-size: 1.2rem;
+  background: white;
+  border-radius: 7px;
+}
+
+.nav ul li a:focus {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 200px;
+  justify-content: center;
+  align-items: center;
+  height: 420px;
+}
+
+.home::before {
+  content: "";
+  background: url('img/c.jpg') no-repeat center center/cover;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 558px;
+  opacity: 0.89;
+}
+
+.home h1 {
+  text-align: center;
+  padding: 24px;
+}
+
+.home p {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.head {
+  margin: 0px;
+  font-size: 3.5rem;
+  padding: 12px;
+}
+
+.home p {
+  margin: 0px;
+}
+
+.btn {
+  color: white;
+  font-size: 1.2rem;
+  border: 1px solid white;
+  background: #1b1b1b;
+  cursor: pointer;
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.btn:hover{
+  background: white;
+  color: black;
+}
+.serv{
+  margin-top: 75px;
+}
+.serv h2{
+  text-align: center;
+  margin-top: 35px;
+  color: black;
+  font-size:3rem;
+}
+.service{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  margin: 0px 140px;
+}
+.box{
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 5px 10px;
+  padding: 15px 20px;
+  background: #f4f2f2;
+}
+.box img{
+  display: block;
+  height: 100px;
+  margin: auto;
+
+}
+.box h3{
+  text-align: center;
+  color: black;
+}
+.box p{
+  text-align: center;
+  color: black;
+}
+.client{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 222px;
+  margin-top: 15px;
+}
+.client::before{
+  content: "";
+  background: url('https://media.istockphoto.com/photos/aerial-view-of-various-coffee-picture-id938993594?k=20&m=938993594&s=612x612&w=0&h=J3_C3ZapFrjgLrrqGih57_mJRs5sQJCTWJ53XPdVymQ=') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity:0.3;
+  position: absolute;
+}
+.client img{
+  height: 90px;
+  padding: 34px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 325px;
+}
+.form::before{
+  content: "";
+  background: url('https://cdn.searchenginejournal.com/wp-content/uploads/2018/06/best-contact-us-pages-1520x800.png') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity:0.6;
+  position: absolute;
+}
+.input{
+  margin: 10px 0px;
+  width: 45%;
+}
+.input input{
+  border-bottom: 0.7px solid gray;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 10px;
+  border-radius: 7px;
+}
+.input label{
+  color: black;
+}
+#inp{
+  width: 100%;
+}
+.input .btn{
+  display: block;
+  width:30%;
+  margin: auto;
+}
+.foot{
+  background: black;
+  opacity: 0.8;
+  text-align: center;
+  padding: 6.5px;
+  height: 34px;
+}
